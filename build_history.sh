@@ -1,12 +1,5 @@
 #!/bin/bash
-# Builds a small, plausible-looking git history:
-#   1. initial commit (app scaffold)
-#   2. "oops, hardcoded config" commit (the leak)
-#   3-4. unrelated normal commits (makes it look organic)
-#   5. rotation commit (removes the hardcoded key, switches to env vars)
-#
-# Self-contained: writes all file content itself, safe to re-run from scratch.
-set -e
+
 
 rm -rf .git src package.json .gitignore .env.example README.md
 mkdir -p src/components
