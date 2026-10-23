@@ -1,4 +1,8 @@
-// Firebase client configuration
+DB_HOST=db-prod-01.internal
+DB_PORT=5432
+DB_USER=ctf_app
+DB_PASSWORD=flag{inm_db_log_in_creds}
+DB_NAME=daily_tasks// Firebase client configuration
 // Loaded from environment — see .env.example
 
 const firebaseConfig = {
